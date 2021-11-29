@@ -1,0 +1,70 @@
+>raspberry pi setup with memory card
+	step 1
+memory card in card reader.
+connect to Laptop
+go sd card formatter
+format memory card
+operating system
+download operating system
+raspberry pi OS()
+install(raspberry pi imager software)
+go to raspberry pi imager
+choose OS-raspberry pi 32 bit(you can costamize this)
+select storage-memory card(storage)
+click on write
+it takes 20 min
+
+now memory card is ready to use in RPI software
+lets enable it for allowing remote login via SSH
+
+1 create a empty file with name SSR and no extantion
+    create new file with name ssh on desktop
+    remove that .txt extantion by renaming the file
+if you are unable to do this then another step
+    >go in files explorer then click on view and go to extantion view remove .txt then click on ok
+ 
+2  open memory card where you will see OS files and copy ssh file there
+now your OS is ready to accept remote ssh connection
+ 
+now raspberry pi is ready to use
+now connect memory card is connected to raspberry pi
+connect raspberry pi to laptop  by USB (C type USB)
+connect raspberry pi ethernet port to laptop ethernet port
+
+now windows+r
+    type cmd
+     then ok
+    then type ping raspberrypi.local cammand in cms.exe
+    get responce
+you get that raspberry is connected
+    not find host raspberry
+then open advance ip scanner then scan
+ after that open putty software
+put the ip of raspberry"raspberrypi.local"
+open putty portal
+login: pi
+enter
+vncserver
+enter
+
+> then go to vnc viewer
+type raspberrypi.local:click
+user name pi
+password raspberry
+connect to wifi to raspberry pi and laptop{same wifi must be connected}
+ work on iit enjoy games 
+
+
+
+
+27/10/2021
+
+steps== 
+1check the connection ping to raspberry in cmd
+2 putty: id=pi   password=raspberry(this is not visible so type on your on)
+3 type vncserver > enter
+4 go to vnc viewer
+put raspberry.local.1
+put 
+id:pi
+password:raspberry
